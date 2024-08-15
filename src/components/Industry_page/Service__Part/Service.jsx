@@ -8,10 +8,10 @@ const Service = () => {
         <div className='container'>
             <div className='text-center'>
                 <h2 className="font-Poppins text-[40px] font-semibold leading-tight">Roles We Fill</h2>
-                <p className="font-Poppins text-[15px] font-normal mt-5 leading-6 w-[640px] m-auto">"We fill roles in construction, matching skilled professional like engineers, supervisor, and
+                <p className="font-Poppins xl:text-[15px] mb:text-[13px] font-normal mt-5 leading-6 xl:w-[640px] mb:w-[277px] m-auto">"We fill roles in construction, matching skilled professional like engineers, supervisor, and
                 laborers to projects requiring and efficiency."</p>
             </div>
-            <div className='grid grid-cols-4 gap-6 text-center mt-8 '>
+            <div className='grid xl:grid-cols-4 mb:grid-cols-1 gap-6 text-center mt-8 '>
                 {ServiceData?.map((item)=>(
                     <div key={item.id} className='p-4 pb-6 bg-[#f7f7f7] rounded-lg drop-shadow-md mb-6'>
                         <div className='w-full h-[176px]'>

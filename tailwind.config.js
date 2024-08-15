@@ -18,7 +18,10 @@ export default {
           xl: "5rem",
           "2xl": "6rem",
         }
-      }
+      },
+      screens: {
+        mb : "320px",
+      },
     },
   },
   plugins: [],

@@ -6,14 +6,14 @@ import { TbLocation } from "react-icons/tb";
 const SubFooter = () => {
   return (
     <>
-      <div className='border-t border-white w-[1342px]'>
-        <div className='flex justify-between mt-5 text-white'>
-            <div><p className='flex gap-12 font-Poppins text-[13px] font-normal'>© Copyright 2024 “Hire & Fire” All Rights Reserved.</p></div>
-            <div>
-                <ul className='flex gap-9 font-Poppins text-[14px] font-normal'>                 
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li> Cookie Policy</li>
+      <div className='border-t border-white xl:w-[1342px] mb:w-[285px]'>
+        <div className='xl:flex mb:block justify-between mt-5 text-white'>
+            <div className="xl:mb-0 mb:mb-5"><p className='flex gap-12 font-Poppins text-[13px] font-normal'>© Copyright 2024 “Hire & Fire” All Rights Reserved.</p></div>
+            <div className="xl:mb-0 mb:mb-5">
+                <ul className='xl:flex mb:block gap-9 font-Poppins text-[14px] font-normal'>                 
+                    <li className="xl:mb-0 mb:mb-4">Privacy Policy</li>
+                    <li className="xl:mb-0 mb:mb-4">Terms & Conditions</li>
+                    <li className="xl:mb-0 mb:mb-4"> Cookie Policy</li>
                 </ul>
             </div>
             <div className="flex gap-12 items-center">

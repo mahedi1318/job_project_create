@@ -9,7 +9,7 @@ const FooterGetInTouch = () => {
        <p className="font-Poppins text-[15px] font-normal text-white w-[229px] mt-8 leading-6" >Subscribe Our Newsletter to Get Latest Update & News</p>
        <div>
         <form className='text-white flex mt-6' action="">
-            <input className='rounded-tl-md font-Poppins rounded-bl-md pl-3 placeholder:font-Poppins placeholder:text-[13px] w-[240px] outline-none text-[#444]' type="text" placeholder='Your Email Here' />
+            <input className='rounded-tl-md font-Poppins rounded-bl-md pl-3 placeholder:font-Poppins placeholder:text-[13px] xl:w-[240px] mb:w-[187px] outline-none text-[#444]' type="text" placeholder='Your Email Here' />
             <button className='font-Poppins text-[13px] font-normal py-3 px-5 bg-red-600 rounded-tr-md rounded-br-md' type='submit'>Subscribe</button>
         </form>        
        </div>

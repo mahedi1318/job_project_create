@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
     <div className='py-10 bg-[#1d4699] mt-24'>
-        <div className='container grid grid-cols-7 gap-5'>
+        <div className='container grid xl:grid-cols-7 mb:grid-cols-1 gap-5'>
             <div className='w-full h-[400px] col-span-2'>
                 <div>
                     <img src={FooterLogo} alt="FooterLogo" />

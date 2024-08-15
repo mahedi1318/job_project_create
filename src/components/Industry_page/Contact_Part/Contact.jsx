@@ -8,11 +8,11 @@ const Contact = () => {
   return (
     <div className='mt-24'>
       <div className='container'>
-        <div className='w-[900px] m-auto'>
-            <div className='flex'>
-                <div className='bg-yellow-500 w-2/5 h-[430px] relative'>
+        <div className='xl:w-[900px] mb:w-[304px] m-auto'>
+            <div className='xl:flex mb:block'>
+                <div className='bg-yellow-500 xl:w-2/5 mb:w-full h-[430px] relative'>
                     <img className="w-full h-full object-cover" src={ContactImg} alt="ContactImg" />
-                    <div className="absolute top-0 left-0 px-12 py-14">
+                    <div className="absolute top-0 left-0 xl:px-12 mb:px-8 xl:py-14 mb:py-10">
                         <h3 className="font-Poppins text-2xl font-medium text-white">Contact Us</h3>
                         <p className="font-Poppins text-[13px] font-normal text-white mt-4">Say Someting to start a live chat</p>
                         <div className="mt-7">
@@ -59,8 +59,8 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='bg-[#FFF] drop-shadow-md w-3/5 h-[430px]'>
-                <div className="p-9">
+                <div className='bg-[#FFF] drop-shadow-md w-3/5 mb:w-full h-[430px]'>
+                <div className="xl:p-9 mb:p-4">
                     <ContactForm/>
                 </div>
                 </div>
